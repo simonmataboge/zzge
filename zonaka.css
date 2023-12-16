@@ -165,12 +165,12 @@
     #home, #contacts{
         background-image:url(WA0002.jpg);
         height:520px;
-		    background-repeat: no-repeat;
-    background-size: cover;
+	background-repeat: no-repeat;
+    	background-size: cover;
     }
 @media screen and (max-width:1000px ) {
     #home, #contacts, #footer {
-        width: 480px;
+        width: 520px;
     }
 }
     .home-box{
