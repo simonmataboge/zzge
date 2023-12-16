@@ -403,7 +403,7 @@ h2 {
 }
 @media screen and (max-width:400px ) {
     .service {
-		margin-left: 10px;
+		margin-left: 20px;
 		width: 480px;
     }
 }
