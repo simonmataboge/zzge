@@ -401,6 +401,12 @@ h2 {
 		width: 470px;
     }
 }
+@media screen and (max-width:400px ) {
+    .service {
+		margin-left: 10px;
+		width: 480px;
+    }
+}
 .single-service {
     margin: 3px;
     display: inline-block;
