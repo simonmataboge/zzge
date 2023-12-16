@@ -234,7 +234,7 @@ h2 {
 @media screen and (max-width:400px ) {
     #about {
         height: 780px;
-        width: 440px;
+        width: 480px;
     }
 }
 .about{
@@ -329,6 +329,12 @@ h2 {
 		width: 470px;
     }
 }
+@media screen and (max-width:400px ) {
+    .tail-about {
+		margin-left: 10px;
+		width: 460px;
+    }
+}
 .body-about dl {
     text-align: left;
     font-size: 16px;
@@ -378,6 +384,13 @@ h2 {
 		height: 1000px;
     }
 }
+@media screen and (max-width:400px ) {
+    #service {
+		margin-left: 0px;
+		width: 480px;
+		height: 1100px;
+    }
+}
 .service
 {
     margin-left: 100px;
@@ -415,7 +428,7 @@ h2 {
 
 @media screen and (max-width:400px ) {
     .single-service {
-        width: 380px;
+        width: 220px;
         margin-left: 0px;
     }
 
@@ -502,8 +515,8 @@ h2 {
 @media screen and (max-width:400px ) {
     #testimonials {
         margin-left: 0px;
-        height: 800px;
-        width: 440px;
+        height: 1100px;
+        width: 480px;
     }
 }
 .testimonials{
@@ -526,20 +539,9 @@ h2 {
 
 @media screen and (max-width:400px ) {
     .testimonial {
-        display: block;
-        float: left;
-        margin: 2px;
-        font-size: 2em;
-        transition: color linear 0,15s;
+         margin-left: 20px;
     }
 
-    a. .testimonial:link,
-    a. .testimonial:visited,
-    a. .testimonial:hover,
-    a. .testimonial:active {
-        text-decoration: none;
-        color: #fff;
-    }
 }
 
 
