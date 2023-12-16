@@ -170,7 +170,7 @@
     }
 @media screen and (max-width:400px ) {
     #home, #contacts, #footer {
-        width: 480px;
+        width: 490px;
     }
 }
     .home-box{
