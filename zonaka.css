@@ -38,13 +38,22 @@
     margin-top: 7px;
     color: var(--bg-color);
 }
+@media screen and (max-width:1000px ){
+	.header-right{
+		display: none;
+	}
+}
 
 .header img {
     width: 300px;
     height: 200px;
     margin-top:-70px;
 }
-
+@media screen and (max-width:1000px ){
+	.header img{
+		margin-left: 100px;
+	}
+}
 .header a, .buy-btn a {
     padding: 10px;
     text-decoration: none;
@@ -156,6 +165,8 @@
     #home, #contacts{
         background-image:url(WA0002.jpg);
         height:520px;
+		    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     .home-box{
@@ -226,12 +237,28 @@ h2 {
     margin-left:50px;
     margin-top:40px;
 }
+@media screen and (max-width:1000px ){
+	.about{
+		margin-left: 0px;
+	}
+}
 .head-about img
 {
     height:260px;
     width:240px;
     margin-top:-140px;
     margin-left:60px;
+}
+@media screen and (max-width:1000px ){
+	.head-about img{
+		margin-top: 20px;
+		margin-left: 120px;
+	}
+}
+@media screen and (max-width:1000px ){
+	.head-about img{
+		margin-top: 20px;
+	}
 }
 #about .buy-btn {
     margin-left: 440px;
@@ -270,16 +297,14 @@ h2 {
     border: 2px solid #12f7ff;
 }
 
-.body-about {
-    display: inline-block !important;
-}
+
 
 @media screen and (max-width:1000px ) {
     .body-about {
-        display: none;
         margin-left: 10px;
         margin-top: 50px;
-        width: 190px;
+        width: 220px;
+		height: 280px;
     }
 }
 
@@ -288,14 +313,24 @@ h2 {
     }
 }
 
-}
 
+.tail-about{
+	width:600px;
+	margin-left:305px;
+	margin-top:40px;
+}
+@media screen and (max-width:1000px ) {
+    .tail-about {
+		margin-left: 10px;
+		width: 470px;
+    }
+}
 .body-about dl {
     text-align: left;
     font-size: 16px;
 }
 
-.body-about .fa {
+.body-about .fa, .tail-about .fa {
     font-size: 50px;
     border-radius: 120px;
     background-color: white;
@@ -303,7 +338,11 @@ h2 {
     margin-top: -10px;
     margin-left: 120px;
 }
-
+@media screen and (max-width:1000px ) {
+    .body-about .fa, .tail-about .fa  {
+		margin-left: 70px;
+    }
+}
 .head-about h4 {
     background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
     margin-top: -10px;
@@ -323,15 +362,27 @@ h2 {
 
 #service {
     padding: 10px 0;
-    background:;
     text-align: center;
    
     height: 550px;
     margin-top:150px;
 }
+@media screen and (max-width:1000px ) {
+    #service {
+		margin-left: 0px;
+		width: 480px;
+		height: 1000px;
+    }
+}
 .service
 {
     margin-left: 100px;
+}
+@media screen and (max-width:1000px ) {
+    .service {
+		margin-left: 0px;
+		width: 470px;
+    }
 }
 .single-service {
     margin: 3px;
@@ -350,18 +401,11 @@ h2 {
     }
 
 
-
-
-
-.single-service {
-    display: inline-block !important;
-}
-
 @media screen and (max-width:1000px ) {
     .single-service {
-        display: none;
-        width: 200px;
+        width: 220px;
         margin-left: 10px;
+		margin-top: 20px;
     }
 }
 
@@ -371,13 +415,6 @@ h2 {
         margin-left: 0px;
     }
 
-    a. .single-service:link,
-    a. .single-service:visited,
-    a. .single-service:hover,
-    a. .single-service:active {
-        text-decoration: none;
-        color: #fff;
-    }
 }
 
 
@@ -417,6 +454,7 @@ h2 {
     text-align: left;
     width: 100%;
 }
+
     .service-content ul{
         margin-top:60px;
     }
@@ -452,7 +490,8 @@ h2 {
 @media screen and (max-width:1000px ) {
     #testimonials {
         margin-left: 0px;
-        height: 800px;
+        height: 1100px;
+		margin-top: 10px;
     }
 }
 
@@ -475,8 +514,8 @@ h2 {
 
 @media screen and (max-width:1000px ) {
     .testimonial {
-        margin-left: 20px;
-        margin-top: 10px;
+        margin-left: 0px;
+        margin-top: 50px;
         width: 440px;
     }
 }
@@ -510,7 +549,7 @@ h2 {
 
 @media screen and (max-width:1000px ) {
     .testimonial img {
-        margin-left: 150px;
+        margin-left: 0px;
     }
 }
 
@@ -627,6 +666,11 @@ social-icons a:hover::before {
 .footer-box{
     display:inline-block;
     width:240px;
+}
+@media screen and (max-width:1000px ) {
+    .footer-box {
+		width: 220px;
+    }
 }
 #footer li{
     color:white;
