@@ -704,7 +704,11 @@ social-icons a:hover::before {
     margin-top:100px;
 }
 
-
+@media screen and (max-width:400px ) {
+    #contacts {
+        margin-top: 200px;
+    }
+}
 
 
 #footer{
