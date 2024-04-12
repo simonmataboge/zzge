@@ -339,11 +339,11 @@ h2 {
     background-color: white;
     padding: 10px;
     margin-top: -10px;
-    margin-left: 120px;
+    margin-left: 140px;
 }
 @media screen and (max-width:1000px ) {
     .body-about .fa, .tail-about .fa  {
-		margin-left: 70px;
+		margin-left: 200px;
     }
 }
 .head-about h4 {
@@ -513,9 +513,14 @@ h2 {
 	height:200px;
 	width:177px;
 }
+@media screen and (max-width:1000px ) {
+   .service-content img {
+        width: 200px;
+    }
+}
 @media screen and (max-width:400px ) {
    .service-content img {
-        width: 190px;
+        width: 194px;
     }
 }
 .service-content img:hover {
@@ -736,7 +741,7 @@ social-icons a:hover::before {
 
 @media screen and (max-width:400px ) {
     #contacts {
-        margin-top: 200px;
+        margin-top: 300px;
     }
 }
 
@@ -744,6 +749,9 @@ social-icons a:hover::before {
 #footer{
     background-color:black;
     padding:10px;
+}
+.footer{
+	margin-left:20px;
 }
 .footer-box{
     display:inline-block;
