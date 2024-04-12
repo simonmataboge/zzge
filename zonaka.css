@@ -343,7 +343,7 @@ h2 {
 }
 @media screen and (max-width:1000px ) {
     .body-about .fa, .tail-about .fa  {
-		margin-left: 200px;
+		margin-left: 180px;
     }
 }
 .head-about h4 {
@@ -374,7 +374,7 @@ h2 {
 		margin-left: 0px;
 		width: 480px;
 		height: 700px;
-	    margin-top:500px;
+	    margin-top:600px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -382,7 +382,7 @@ h2 {
 		margin-left: 0px;
 		width: 480px;
 		height: 700px;
-	    margin-top:700px;
+	    margin-top:600px;
     }
 }
 
@@ -419,7 +419,7 @@ h2 {
 }
 @media screen and (max-width:400px ) {
     .service {
-		margin-left: 20px;
+		margin-left: 10px;
 		width: 480px;
     }
 }
@@ -516,7 +516,7 @@ h2 {
 }
 @media screen and (max-width:1000px ) {
    .service-content img {
-        width: 200px;
+        width: 194px;
     }
 }
 @media screen and (max-width:400px ) {
