@@ -193,9 +193,7 @@ h2 {
     color: white;
     margin-left: -40px;
 }
-    #home ul li:hover, #contacts ul li:hover {
-        color: var(--bg-color);
-    }
+    
 
     #home ul li::before, #contacts ul li::before {
         content: "";
@@ -295,7 +293,7 @@ h2 {
 .body-about {
     text-align:;
     width: 300px;
-    height: 250px;
+    height: 400px;
     display: inline-block;
     margin-top: 20px;
     border: 2px solid #12f7ff;
@@ -375,7 +373,7 @@ h2 {
     text-align: center;
    
     height: 550px;
-    margin-top:150px;
+    margin-top:250px;
 }
 @media screen and (max-width:1000px ) {
     #service {
@@ -464,8 +462,7 @@ h2 {
     }
 
     .service-head p {
-        color: yellow;
-        font-size: 25px;
+        color: white;
         font-weight: bold;
         margin-bottom: 5px;
         line-height: 30px;
@@ -539,7 +536,7 @@ h2 {
 
 #testimonials {
     margin-top: -10px;
-    height: 600px;
+    height: 800px;
     color: white; 
     text-align:center;
 }
@@ -547,7 +544,7 @@ h2 {
 @media screen and (max-width:1000px ) {
     #testimonials {
         margin-left: 0px;
-        height: 1100px;
+        height: 1300px;
 		margin-top: 10px;
     }
 }
@@ -555,7 +552,7 @@ h2 {
 @media screen and (max-width:400px ) {
     #testimonials {
         margin-left: 0px;
-        height: 1100px;
+        height: 1300px;
         width: 480px;
     }
 }
