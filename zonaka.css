@@ -365,6 +365,16 @@ h2 {
     height: 350px;
     margin-top:300px;
 }
+#team img:hover {
+    transform:scale(1.1);
+    filter: grayscale(0);
+    cursor: pointer;
+}
+#team img
+{
+    filter: grayscale(1);
+
+}
 @media screen and (max-width:1000px ) {
     #team {
 		margin-left: 0px;
