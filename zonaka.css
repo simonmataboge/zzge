@@ -346,6 +346,7 @@ h2 {
 		margin-left: 200px;
     }
 }
+
  .tail-about i{
     font-size: 50px;
     border-radius: 120px;
@@ -357,6 +358,11 @@ h2 {
 @media screen and (max-width:1000px ) {
     .tail-about i  {
 		margin-left:200px;
+    }
+}
+@media screen and (max-width:400px ) {
+    .body-about i  {
+		margin-left: 160px;
     }
 }
 .head-about h4 {
