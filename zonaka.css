@@ -358,7 +358,27 @@ h2 {
 
 
 
-
+#team {
+    padding: 10px 0;
+    text-align: center;
+   
+    height: 350px;
+    margin-top:250px;
+}
+@media screen and (max-width:1000px ) {
+    #team {
+		margin-left: 0px;
+		width: 480px;
+		height: 700px;
+    }
+}
+@media screen and (max-width:400px ) {
+    #team {
+		margin-left: 0px;
+		width: 480px;
+		height: 700px;
+    }
+}
 
 #service {
     padding: 10px 0;
