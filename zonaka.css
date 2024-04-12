@@ -507,11 +507,10 @@ h2 {
 .service-content img
 {
 	height:200px;
-	width:175px;
+	width:178px;
 }
 .service-content img:hover {
     filter: grayscale(0);
-    cursor: pointer;
 }
 .service-content img
 {
