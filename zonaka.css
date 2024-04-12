@@ -69,6 +69,7 @@
     }
         .buy-btn a:hover {
             color: var(--bg-color);
+		text-decoration: none;
         }
 
         .buy-btn a::before {
@@ -86,6 +87,7 @@
         .buy-btn a:hover {
             background: var(--hover-color);
             color: var(--bg-color);
+		text-decoration: none;
         }
 
             .buy-btn a:hover::before {
@@ -372,7 +374,7 @@ h2 {
 		margin-left: 0px;
 		width: 480px;
 		height: 700px;
-	    margin-top:400px;
+	    margin-top:500px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -746,18 +748,21 @@ social-icons a:hover::before {
 .footer-box{
     display:inline-block;
     width:240px;
-margin-left:20px;
 }
 @media screen and (max-width:1000px ) {
     .footer-box {
 		width: 220px;
-	    margin-left:40px;
     }
 }
 #footer li{
     color:white;
     list-style:none;
     margin-left:-40px
+}
+#footer p{
+    color:white;
+    list-style:none;
+    margin-left:0px
 }
 .footer-box a{
     text-decoration:none;
