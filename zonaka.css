@@ -352,11 +352,11 @@ h2 {
     background-color: white;
     padding: 10px;
     margin-top: -10px;
-    margin-left: 140px;
+    margin-left: 250px;
 }
 @media screen and (max-width:1000px ) {
     .tail-about .fa  {
-		margin-left: 60px;
+		margin-left: 180px;
     }
 }
 .head-about h4 {
