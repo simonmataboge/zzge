@@ -363,7 +363,7 @@ h2 {
     text-align: center;
    
     height: 350px;
-    margin-top:250px;
+    margin-top:300px;
 }
 @media screen and (max-width:1000px ) {
     #team {
@@ -506,7 +506,7 @@ h2 {
 .service-content img
 {
 	height:200px;
-	width:200px;
+	width:180px;
 }
 
 
