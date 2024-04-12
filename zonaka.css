@@ -494,7 +494,11 @@ h2 {
     margin-left: -40px;
 }
 
-
+.service-content img
+{
+	height:200px;
+	width:200px;
+}
 
 
 #clients{
