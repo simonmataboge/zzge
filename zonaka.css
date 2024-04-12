@@ -767,6 +767,11 @@ social-icons a:hover::before {
 .footer{
 	margin-left:10px;
 }
+@media screen and (max-width:400px ) {
+    .footer {
+		margin-left:5px;
+    }
+}
 .footer-box{
     display:inline-block;
     width:240px;
@@ -786,11 +791,7 @@ social-icons a:hover::before {
     list-style:none;
     margin-left:-40px
 }
-#footer p{
-    color:white;
-    list-style:none;
-    margin-left:0px
-}
+
 .footer-box a{
     text-decoration:none;
     color:white;
