@@ -225,7 +225,7 @@ h2 {
 
 @media screen and (max-width:400px ) {
     #about {
-        height: 700px;
+        height: 800px;
         width: 480px;
     }
 }
@@ -356,7 +356,7 @@ h2 {
 }
 @media screen and (max-width:1000px ) {
     .tail-about .fa  {
-		margin-left: 140px;
+		margin-left: 100px;
     }
 }
 .head-about h4 {
@@ -774,6 +774,11 @@ social-icons a:hover::before {
 @media screen and (max-width:1000px ) {
     .footer-box {
 		width: 220px;
+    }
+}
+@media screen and (max-width:400px ) {
+    .footer-box {
+		width: 240px;
     }
 }
 #footer li{
