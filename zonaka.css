@@ -219,13 +219,13 @@ h2 {
 
 @media screen and (max-width:1000px ) {
     #about {
-        height: 780px;
+        height: 800px;
     }
 }
 
 @media screen and (max-width:400px ) {
     #about {
-        height: 780px;
+        height: 700px;
         width: 480px;
     }
 }
@@ -333,7 +333,20 @@ h2 {
     font-size: 16px;
 }
 
-.body-about .fa, .tail-about .fa {
+.body-about .fa {
+    font-size: 50px;
+    border-radius: 120px;
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 120px;
+}
+@media screen and (max-width:1000px ) {
+    .body-about .fa  {
+		margin-left: 180px;
+    }
+}
+ .tail-about .fa {
     font-size: 50px;
     border-radius: 120px;
     background-color: white;
@@ -342,8 +355,8 @@ h2 {
     margin-left: 140px;
 }
 @media screen and (max-width:1000px ) {
-    .body-about .fa, .tail-about .fa  {
-		margin-left: 180px;
+    .tail-about .fa  {
+		margin-left: 140px;
     }
 }
 .head-about h4 {
@@ -516,12 +529,12 @@ h2 {
 }
 @media screen and (max-width:1000px ) {
    .service-content img {
-        width: 194px;
+        width: 192px;
     }
 }
 @media screen and (max-width:400px ) {
    .service-content img {
-        width: 194px;
+        width: 195px;
     }
 }
 .service-content img:hover {
@@ -752,7 +765,7 @@ social-icons a:hover::before {
     padding:10px;
 }
 .footer{
-	margin-left:20px;
+	margin-left:10px;
 }
 .footer-box{
     display:inline-block;
