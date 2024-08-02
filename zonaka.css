@@ -766,6 +766,92 @@ social-icons a:hover::before {
 }
 
 
+
+
+
+
+
+
+
+
+
+#visit {
+    padding: 10px 0;
+    text-align: center;
+   
+    height: 350px;
+    margin-top:30px;
+}
+
+@media screen and (max-width:1000px ) {
+    #visit {
+		margin-left: 0px;
+		width: 480px;
+		height: 700px;
+	    margin-top:600px;
+    }
+}
+@media screen and (max-width:400px ) {
+    #visit {
+		margin-left: 0px;
+		width: 480px;
+		height: 700px;
+	    margin-top:600px;
+    }
+}
+
+.branches ul li {
+    padding: 5px ;
+    list-style: none;
+    text-align: left;
+    margin-left: -40px;
+}
+
+.mo2
+{
+    background-image:url(blue.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;  
+}
+.rusty
+{
+    background-image:url(yellow.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;  
+}
+.ross
+{
+    background-image:url(blue.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;  
+}
+.sosh
+{
+    background-image:url(yellow.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #footer{
     background-color:black;
     padding:10px;
