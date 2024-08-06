@@ -787,16 +787,16 @@ social-icons a:hover::before {
     #visit {
 		margin-left: 0px;
 		width: 480px;
-		height: 700px;
-	    margin-top:600px;
+		height: 600px;
+	    margin-top:60px;
     }
 }
 @media screen and (max-width:400px ) {
     #visit {
 		margin-left: 0px;
 		width: 480px;
-		height: 700px;
-	    margin-top:600px;
+		height: 600px;
+	    margin-top:60px;
     }
 }
 
